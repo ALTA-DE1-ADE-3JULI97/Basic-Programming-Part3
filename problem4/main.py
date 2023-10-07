@@ -1,5 +1,8 @@
 def palindrome(input_string):
-    return 'error response'
+    input_string = input_string.replace(" ", "")
+    reversed_string = input_string[::-1]
+
+    return input_string == reversed_string
 
 
 if __name__ == '__main__':

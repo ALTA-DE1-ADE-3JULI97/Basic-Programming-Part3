@@ -1,4 +1,6 @@
 def pangkat(base, pangkat):
+    result = base ** pangkat
+    return result
     # your code here
     return 'error response'
 
